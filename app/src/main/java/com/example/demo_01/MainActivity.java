@@ -24,7 +24,7 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
     private WebView webview;
-    private String url = "https://pro.m.jd.com/mall/active/2HsSHBSBW6KZGkxPHh9o2qL8QYB/index.html";
+    private String url = "https://pro.m.jd.com/mall/active/peUEq67RgaYU6AKWBDvCALUvffN/index.htmll";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
