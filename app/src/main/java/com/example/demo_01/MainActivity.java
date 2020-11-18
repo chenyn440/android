@@ -24,13 +24,36 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
     private WebView webview;
-    private String url = "https://pro.m.jd.com/mall/active/2HsSHBSBW6KZGkxPHh9o2qL8QYB/index.html";
+    private String url = "https://flywheel.jd.com/";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        webview = (WebView) findViewById(R.id.webView);
-        fillWebView(url);
+        Button shou_btn = (Button) findViewById(R.id.button);
+        shou_btn.setOnClickListener(new OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+//                Intent intent = new Intent(AlarmClock.ACTION_SET_ALARM)
+//                        .putExtra(AlarmClock.EXTRA_MESSAGE, "该起床了")
+//                        .putExtra(AlarmClock.EXTRA_HOUR, 1)
+//                        .putExtra(AlarmClock.EXTRA_MINUTES, 1);
+//                if (intent.resolveActivity(getPackageManager()) != null) {
+//                    startActivity(intent);
+//                }
+                webview = (WebView) findViewById(R.id.webView);
+                fillWebView(url);
+            }
+        });
+        Button close_btn = (Button) findViewById(R.id.close);
+        close_btn.setOnClickListener(new OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                // WebView webview = (WebView) findViewById(R.id.webView);
+                webview.loadUrl("");
+            }
+        });
     }
 
     private void fillWebView(String url) {

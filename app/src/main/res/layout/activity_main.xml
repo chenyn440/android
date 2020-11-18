@@ -127,11 +127,16 @@ android:orientation="vertical"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
     >
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="短发短发"
-    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抽奖"
+        android:id="@+id/button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭"
+        android:id="@+id/close"/>
     <android.webkit.WebView
         android:id="@+id/webView"
         android:layout_width="fill_parent"
