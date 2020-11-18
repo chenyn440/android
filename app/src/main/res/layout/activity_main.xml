@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/activity_main"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--    tools:context=".MainActivity">-->
+<!--    <WebView-->
+<!--        android:id="@+id/webView"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"/>-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#bed2e6"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="vertical">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="replaceFragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="replace Fragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textAllCaps="false" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="addFragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="add Fragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textAllCaps="false" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="removeFragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="回退 Fragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textAllCaps="false" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="sendMessPerson"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="发送短信"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textAllCaps="false"&ndash;&gt;-->
+<!--&lt;!&ndash;            tools:ignore="OnClick" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <FrameLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/fragment_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="3" />&ndash;&gt;-->
+
+<!--</LinearLayout>-->
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="fill_parent"-->
+<!--    android:layout_height="fill_parent" >-->
+
+<!--    <TextView-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/inputmobile"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/mobile"/>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/button"-->
+<!--        android:id="@+id/button"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/alarm_btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="闹钟"-->
+<!--        android:textAllCaps="false" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/time_btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="日历"-->
+<!--        android:textAllCaps="false" />-->
+<!--    <Button-->
+<!--        android:id="@+id/image_btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="图片"-->
+<!--        android:textAllCaps="false" />-->
+<!--    <Button-->
+<!--        android:id="@+id/contact_btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="联系人"-->
+<!--        android:textAllCaps="false" />-->
+<!--    <Button-->
+<!--        android:id="@+id/open_h5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="打开h5"-->
+<!--        android:textAllCaps="false" />-->
+<!--</LinearLayout>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="fill_parent"-->
+<!--    android:layout_height="fill_parent"-->
+<!--    tools:context=".MainActivity" >-->
+
+<!--    <WebView-->
+<!--        android:id="@+id/webView"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"/>-->
+
+<!--</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="短发短发"
+    />
+    <android.webkit.WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></android.webkit.WebView>
+</LinearLayout>
